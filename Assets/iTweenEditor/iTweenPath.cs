@@ -8,7 +8,7 @@ public class iTweenPath : MonoBehaviour
 	public string pathName ="";
 	public Color pathColor = Color.cyan;
 	public List<Vector3> nodes = new List<Vector3>(){Vector3.zero, Vector3.zero};
-	public int nodeCount;
+	public int nodeCount = 20;
 	public static Dictionary<string, iTweenPath> paths = new Dictionary<string, iTweenPath>();
 	public bool initialized = false;
 	public string initialName = "";
